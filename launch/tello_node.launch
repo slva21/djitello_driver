@@ -1,0 +1,3 @@
+<launch>
+  <node name="tello_node" pkg="djitello_driver" type="run_with_venv.sh" args="python3 /home/sorair/catkin_ws/src/djitello_driver/src/djitello_driver.py" output="screen" respawn="true" respawn_delay="5"/>
+</launch>

@@ -1,0 +1,2 @@
+rosservice call /tello/takeoff
+rosservice call /tello/land
